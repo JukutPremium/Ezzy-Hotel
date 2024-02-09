@@ -365,6 +365,7 @@ nav {
 }
 
 .footer__links {
+  margin-top: 10px;
   list-style: none;
   display: grid;
   gap: 1rem;
