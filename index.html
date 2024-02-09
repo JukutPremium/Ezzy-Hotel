@@ -8,11 +8,13 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" href="assets/icon.png" type="image/gif/png">
+    <link rel="icon" href="assets/logoezzy.png" type="image/gif/png">
     <title>EZZY HOTEL</title>
   </head>
   <body>
 
+    <!-- MOUSE FOLLOWER -->
+
     <div class="circle"></div>
     <div class="circle"></div>
     <div class="circle"></div>
@@ -34,11 +36,15 @@
     <div class="circle"></div>
     <div class="circle"></div>
 
-    <header class="header">
+    <!-- AKHIR MOUSE FOLLOWER -->
+
+    <!-- NAVBAR -->
+
+    <header class="header" style="height: 100vh;">
       <nav>
         <div class="nav__bar">
           <div class="logo">
-            <a href="index.html"><img src="assets/logo.png" alt="logo" /></a>
+            <p>EZZY HOTEL</p>
           </div>
           <div class="nav__menu__btn" id="menu-btn">
             <i class="ri-menu-line"></i>
@@ -48,61 +54,32 @@
         <ul class="nav__links" id="nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#service">Services</a></li>
           <li><a href="#explore">Explore</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         <a href="404.html"><button class="btn nav__btn" type="button">Book Now</button></a>
       </nav>
       <div class="section__container header__container" id="home">
-        <p>Simple - Unique - Friendly</p>
         <div class="h1-home">
-        <h1>Make Yourself At Home<br/>In Our <span>Hotel</span>.</h1></div>
+        <h1>Relax in the Comfort<br/>of Our Hotel <span>Home</span>.</h1></div>
       </div>
     </header>
 
-    <section class="section__container booking__container">
-      <form action="/" class="booking__form">
-        <div class="input__group">
-          <span><i class="ri-calendar-2-fill"></i></span>
-          <div>
-            <label for="check-in">CHECK-IN</label>
-            <input type="date" placeholder="Check In" />
-          </div>
-        </div>
-        <div class="input__group">
-          <span><i class="ri-calendar-2-fill"></i></span>
-          <div>
-            <label for="check-out">CHECK-OUT</label>
-            <input type="date" placeholder="Check Out" />
-          </div>
-        </div>
-        <div class="input__group">
-          <span><i class="ri-user-fill"></i></span>
-          <div>
-            <label for="guest">GUEST</label>
-            <input type="text" placeholder="Guest" />
-          </div>
-        </div>
-          <div class="input__group input__btn">
-            <a href="404.html"><button class="btn" type="button">BOOK NOW</button></a>
-          </div>
-      </form>
+    <!-- AKHIR NAVBAR -->
      
-    </section>
+    <!-- ABOUT US -->
 
     <section class="section__container about__container" id="about">
       <div class="about__image">
         <img src="assets/about.jpg" alt="about" />
       </div>
       <div class="about__content">
-        <p class="section__subheader">ABOUT US</p>
-        <h2 class="section__header">The Best Holidays Start Here!</h2>
+        <p class="section__subheader">ABOUT US :</p>
+        <h2 class="section__header">Unforgettable Holidays Begin Right Here!</h2>
         <p class="section__description">
-          With a focus on quality accommodations, personalized experiences, and
-          seamless booking, our platform is dedicated to ensuring that every
-          traveler embarks on their dream holiday with confidence and
-          excitement.
+          From top-notch accommodations to personalized adventures and hassle-free booking, 
+          our platform is dedicated to guaranteeing that every traveler 
+          embarks on their dream getaway with confidence and excitement.
         </p>
         <div class="about__btn">
           <a href="404.html"><button class="btn" type="button">Read More</button></a>
@@ -110,9 +87,13 @@
       </div>
     </section>
 
+    <!-- AKHIR ABOUT US -->
+
+    <!-- AKHIR PREVIEW ROOM HOTEL -->
+
     <section class="section__container room__container">
-      <p class="section__subheader">OUR LIVING ROOM</p>
-      <h2 class="section__header">The Most Memorable Rest Time Starts Here.</h2>
+      <p class="section__subheader">Our Haven :</p>
+      <h2 class="section__header">Indulge in Unforgettable<br>Tranquility, Starting Here.</h2>
       <div class="room__grid">
         <div class="room__card">
           <div class="room__card__image">
@@ -162,131 +143,74 @@
       </div>
     </section>
 
-    <section class="service" id="service">
-      <div class="section__container service__container">
-        <div class="service__content">
-          <p class="section__subheader">SERVICES</p>
-          <h2 class="section__header">Strive Only For The Best.</h2>
-          <ul class="service__list">
-            <li>
-              <span><i class="ri-shield-star-line"></i></span>
-              High Class Security
-            </li>
-            <li>
-              <span><i class="ri-24-hours-line"></i></span>
-              24 Hours Room Service
-            </li>
-            <li>
-              <span><i class="ri-headphone-line"></i></span>
-              Conference Room
-            </li>
-            <li>
-              <span><i class="ri-map-2-line"></i></span>
-              Tourist Guide Support
-            </li>
-          </ul>
+    <!-- AKHIR PREVIEW ROOM HOTEL -->
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- FORM BOOK -->
+
+    <section class="section__container booking__container">
+      <form action="/" class="booking__form">
+        <div class="input__group">
+          <div>
+            <label for="check-in">CHECK-IN</label>
+            <input type="text" placeholder="Check In" />
+          </div>
         </div>
-      </div>
+        <div class="input__group">
+          <div>
+            <label for="check-out">CHECK-OUT</label>
+            <input type="text" placeholder="Check Out" />
+          </div>
+        </div>
+        <div class="input__group">
+          <div>
+            <label for="guest">GUEST</label>
+            <input type="text" placeholder="Guest" />
+          </div>
+        </div>
+          <div class="input__group input__btn">
+            <a href="404.html"><button class="btn" type="button">BOOK NOW</button></a>
+          </div>
+      </form> 
     </section>
 
-    <section class="section__container banner__container">
-      <div class="banner__content">
-        <div class="banner__card">
-          <h4>54+</h4>
-          <p>Properties Available</p>
-        </div>
-        <div class="banner__card">
-          <h4>362+</h4>
-          <p>Bookings Completed</p>
-        </div>
-        <div class="banner__card">
-          <h4>671+</h4>
-          <p>Happy Customers</p>
-        </div>
-      </div>
-    </section>
+    <!-- AKHIR FORM BOOK -->
 
-    <section class="explore" id="explore">
-      <p class="section__subheader">EXPLORE</p>
-      <h2 class="section__header">What's New Today.</h2>
-      <div class="explore__bg">
-        <div class="explore__content">
-          <p class="section__description">1st FEB 2024</p>
-          <h4>A New Menu Is Available In Our Hotel.</h4>
-          <a href="404.html"><button class="btn" type="button">Continue</button></a>
-        </div>
-      </div>
-    </section>
+    <!-- FOOTER -->
 
     <footer class="footer" id="contact">
       <div class="section__container footer__container">
         <div class="footer__col">
           <div class="logo">
-            <a href="#home"><img src="assets/logo.png" alt="logo" /></a>
+            <a href="#home"><img src="assets/logoezzy.png" alt="logo" /></a>
           </div>
           <p class="section__description">
-            Discover a world of comfort, luxury, and adventure as you explore
-            our curated selection of hotels, making every moment of your getaway
-            truly extraordinary.
+            Overviewing the stunning Jimbaran Bay, 15 minutes from Ngurah Rai International air port 10 minutes to Uluwatu Temple, Dreamland Beach, Pandawa Beach, Jimbaran Fish restaurant, New Kuta Water park, New Kuta Golf course, and 2
+            minutes to Garuda Wisnu Kencana.
           </p>
-          <a href="404.html"><button class="btn" type="button">Book Now</button></a>
-        </div>
-          <div class="footer__col">
-            <h4>ADDRES 1</h4>
-            <ul class="footer__links">
-              <li><a href="404.html">EZZY Heritage
-                KAMPUS ELIZABETH INTERNATIONAL
-                GIANYAR</a></li>
-              <li><a href="404.html">Jl. Kebo Iwa, No. 12B, Gianyar, Bali - Indonesia</a></li>
-              <li><a href="404.html">Telp. (0361) 945 887</a></li>
-            </ul>
-          </div>
-          <div class="footer__col">
-            <h4>ADDRES 2</h4>
-            <ul class="footer__links">
-              <li><a href="404.html">EZZY City
-                KAMPUS ELIZABETH INTERNATIONAL
-                DENPASAR</a></li>
-              <li><a href="404.html">Jl. Hayam Wuruk, No. 226B, Denpasar, Bali - Indonesia</a></li>
-              <li><a href="404.html">Telp. (0361) 230 110</a></li>
-            </ul>
-          </div>
-          <div class="footer__col">
-            <h4>ADDRES 3</h4>
-            <ul class="footer__links">
-              <li><a href="404.html">EZZY Autograph
-                KAMPUS ELIZABETH INTERNATIONAL
-                NUSA DUA</a></li>
-              <li><a href="404.html">Jl. By Pass I Gusti Ngurah Rai, No.27e, Nusa Dua, Bali - Indonesia</a></li>
-              <li><a href="404.html">Telp. (0361) 4772318</a></li>
-            </ul>
-          </div>
-          <div class="footer__col">
-            <h4>ADDRES 4</h4>
-            <ul class="footer__links">
-              <li><a href="404.html">EZZY Smart Resort
-                KAMPUS ELIZABETH INTERNATIONAL
-                DENPASAR</a></li>
-              <li><a href="404.html">Jl. Hayam Wuruk No.199, Denpasar, Bali - Indonesia</a></li>
-              <li><a href="404.html">Telp. (0361) 474 8590</a></li>
-            </ul>
-          </div>
-        <div class="footer__col">
-          <h4>CONTACT US</h4>
-          <ul class="footer__links">
-            <li><a href="404.html">ezzycity@kampuselizabeth.com</a></li>
-          </ul>
           <div class="footer__socials">
-            <a href="https://facebook.com/ElizabethInternational" target="_blank"><img src="assets/facebook.png" alt="facebook"/></a>
-            <a href="https://www.instagram.com/elizabeth_international" target="_blank"><img src="assets/instagram.png" alt="instagram"/></a>
-            <a href="https://www.youtube.com/ezzytv" target="_blank"><img src="assets/youtube.png" alt="youtube"/></a>
-            <a href="https://twitter.com/Elizabeth_Intl" target="_blank"><img src="assets/twitter.png" alt="twitter"/></a>
+            <a href="https://facebook.com/ElizabethInternational" target="_blank"><img src="assets/facebook.png" alt="facebook" /></a>
+            <a href="https://www.instagram.com/elizabeth_international" target="_blank"><img src="assets/instagram.png" alt="instagram" /></a>
+            <a href="https://www.youtube.com/ezzytv" target="_blank"><img src="assets/youtube.png" alt="youtube" /></a>
+            <a href="https://twitter.com/Elizabeth_Intl" target="_blank"><img src="assets/twitter.png" alt="twitter" /></a>
           </div>
         </div>
+
+        <div class="footer__col">
+          <h4>ADDRES</h4>
+          <ul class="footer__links">
+            <li><a>Ezzy Smart Resort Hotel Bali</a></li>
+            <li><a>Jln. Hayam Wuruk No. 199 Denpasar Bali</a></li>
+            <li><a href="#">Telp. (0361) 474 8590</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="footer__bar">
-        Copyright © 2024 Ezzy Hotel. All rights reserved.
-      </div>
+    </div>
+      <div class="footer__bar">Copyright © 2024 Ezzy Hotel. All rights reserved.</div>
     </footer>
 
     <script src="https://unpkg.com/scrollreveal"></script>
