@@ -83,6 +83,7 @@ a {
 
 .logo {
   max-width: 200px;
+  cursor: context-menu;
 }
 
 html,
@@ -108,7 +109,7 @@ nav {
   width: 100%;
   max-width: var(--max-width);
   margin: auto;
-  z-index: 9;
+  z-index: 999;
 }
 
 .nav__bar {
@@ -139,7 +140,7 @@ nav {
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2.5rem;
   background-color: #fff;
   transform: translateY(-100%);
   transition: 0.5s;
@@ -180,6 +181,7 @@ nav {
   line-height: 4.5rem;
   color: var(--white);
   text-align: center;
+  cursor: context-menu;
 }
 
 .header__container h1 span {
@@ -404,7 +406,7 @@ nav {
 
 @media (width <= 769px) {
   .header__container h1 {
-    padding-top: 15rem;
+    padding-top: 13rem;
   }
 }
 
@@ -512,11 +514,11 @@ nav {
     border-radius: 5px;
     transition: 0.5s;
   }
-  
+
   .about__image img {
     border-radius: 20px;
   }
-  
+
   .about__image:hover {
     transform: scale(1.2);
   }
